@@ -1,0 +1,52 @@
+<resources>
+    <string-array name="sp">
+        <item>非常满意</item>
+        <item>比较满意</item>
+        <item>一般满意</item>
+        <item>不满意</item>
+    </string-array>
+
+
+
+    <string name="app_name">HotelReservation</string>
+
+    <string name="lost">Lost</string>
+    <string name="found">Found</string>
+    <string name="message_search_hint">搜索&#8230;</string>
+
+    <string name="list_no_data_lost">暂时还未有评论信息</string>
+    <string name="list_no_data_found">暂时还未有评论信息</string>
+
+    <string name="title_hint">标题</string>
+    <string name="describe_hint">描述</string>
+    <string name="photo_hint">手机</string>
+
+    <string name="progress_loading">正在获取数据..</string>
+    <string name="open">a</string>
+    <string name="close">b</string>
+    //imageloader
+    <string name="ac_name_image_list">Image List Example</string>
+    <string name="ac_name_image_grid">Image Grid Example</string>
+    <string name="ac_name_image_pager">Image Pager Example</string>
+    <string name="ac_name_image_gallery">Image Gallery Example</string>
+    <!-- Labels -->
+    <string name="label_activity_examples">Activity Examples</string>
+    <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="menu_item_pause_on_scroll">Pause on scroll</string>
+    <string name="menu_item_pause_on_fling">Pause on fling</string>
+    <string name="button_image_list">ListView</string>
+    <string name="button_image_grid">GridView</string>
+    <string name="button_image_pager">ViewPager</string>
+    <string name="button_image_gallery">Gallery</string>
+    <!-- Content descriptions -->
+    <string name="descr_image">Image</string>
+    <!--user-->
+    <string name="bangding">绑定手机号</string>
+    <string name="ziliao">完善用户资料</string>
+    <string name="mima">通过手机重置密码</string>
+    <string name="dingdan">订单</string>
+    <string name="neicun">清除内存缓存</string>
+    <string name="SDka">清除SD卡缓存</string>
+    <string name="guanyu">关于</string>
+</resources>

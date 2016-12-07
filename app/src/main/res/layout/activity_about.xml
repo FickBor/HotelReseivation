@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/hotelreserv_ation_action_bar"></include>
+
+    <FrameLayout
+        android:id="@+id/fa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+           android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_hotel3"
+            android:id="@+id/imageView2" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="HotelReservation     V 1.0"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_version" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <TextView
+        android:text="      本软件采用android studio 2.2开发的酒店预订软件，基于bmob云端服务器的数据存储，项目包括酒店目录，地图定位，我的订单，酒店评论，用户模块等模块。地图定位采用了百度地图api实现城市定位以及我的实时位置查看。登陆模块采用了可用户密码登陆以及手机号码一键登陆，酒店目录采用了第三方包Imageloader来实现异步加载图片缓存本地，在加载多个图片时可有效防止oom。首页面实现了侧滑菜单以及banner（横向滚动广告图）的使用，用户模块可根据用户名完善或者更改用户信息以及用过手机验证码更改密码等，更多功能请等待下一步开发。"
+        android:layout_below="@id/fa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:id="@+id/tv_summary" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="作 者：盘李健"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/tv_author" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="Q    Q：18288895"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_qq" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="Email：18288895@qq.com"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_email" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="其 他：本软件为个人毕业设计项目，用途仅用于我个人毕业设计。可用于交流学习，但禁止用于其他方面。"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_affect" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
